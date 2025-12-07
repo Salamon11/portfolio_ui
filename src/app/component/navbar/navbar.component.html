@@ -1,0 +1,38 @@
+<nav class="navbar">
+  <div class="container">
+
+    <!-- Brand -->
+    <div class="nav-brand">
+      <h2>SSP</h2>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="menu-toggle" (click)="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" [class.active]="isMenuOpen">
+      <li><a routerLink="/" [class.active]="isActive('/')"
+             (click)="closeMenu()">Home</a></li>
+
+      <li><a routerLink="/about" [class.active]="isActive('/about')" 
+             (click)="closeMenu()">About</a></li>
+
+      <li><a routerLink="/skills" [class.active]="isActive('/skills')" 
+             (click)="closeMenu()">Skills</a></li>
+
+      <li><a routerLink="/projects" [class.active]="isActive('/projects')" 
+             (click)="closeMenu()">Projects</a></li>
+
+      <li><a routerLink="/experience" [class.active]="isActive('/experience')" 
+             (click)="closeMenu()">Experience</a></li>
+
+      <li><a routerLink="/contact" [class.active]="isActive('/contact')" 
+             (click)="closeMenu()">Contact</a></li>
+    </ul>
+
+  </div>
+</nav>

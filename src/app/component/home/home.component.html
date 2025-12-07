@@ -1,0 +1,38 @@
+<app-navbar></app-navbar>
+<section class="hero" @fadeIn>
+  <div class="container">
+
+    <!-- Left Content -->
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Hi, I'm <span class="highlight">Salamon Santhiyahapper P</span>
+      </h1>
+
+      <h2 class="hero-subtitle">
+        Java | Spring Boot | Microservices | Angular Developer
+      </h2>
+
+      <p class="hero-description">
+        Passionate full-stack developer with 1 year of experience building scalable web applications
+        using modern technologies. Specialized in Java Spring Boot backend and Angular frontend 
+        development.
+      </p>
+
+      <!-- Buttons -->
+      <div class="hero-buttons">
+        <button class="btn btn-primary" routerLink="/projects">View My Work</button>
+        <button class="btn btn-secondary" (click)="downloadResume()">Download Resume</button>
+      </div>
+    </div>
+
+    <!-- Right Side Image -->
+    <div class="hero-image">
+      <div class="profile-circle">
+        <img [src]="profileImage" alt="Salamon Santhiyahapper P" class="profile-image" />
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- <app-skills></app-skills> -->
+<app-footer></app-footer>
