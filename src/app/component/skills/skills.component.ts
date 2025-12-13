@@ -22,7 +22,7 @@ export class SkillsComponent {
     { name: 'HTML/CSS', level: 90, category: 'Frontend' },
     { name: 'JavaScript', level: 85, category: 'Frontend' },
     { name: 'MySQL', level: 75, category: 'Database' },
-    { name: 'MongoDB', level: 70, category: 'Database' },
+    { name: 'Oracle', level: 70, category: 'Database' },
     { name: 'Git', level: 85, category: 'Tools' },
     { name: 'Docker', level: 70, category: 'Tools' }
   ];

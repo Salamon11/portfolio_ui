@@ -5,13 +5,14 @@ import { HomeComponent } from './component/home/home.component';
 import { ProjectsComponent } from './component/projects/projects.component';
 import { SkillsComponent } from './component/skills/skills.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { ExperienceComponent } from './component/experience/experience.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'projects', component: ProjectsComponent },
-  // { path: 'experience', component: ExperienceComponent },
+  { path: 'experience', component: ExperienceComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '' }
 ];
