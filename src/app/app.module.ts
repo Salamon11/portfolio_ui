@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './component/about/about.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { ProjectCardComponent } from './component/project-card/project-card.component';
 import { ProjectsComponent } from './component/projects/projects.component';
 import { SkillsComponent } from './component/skills/skills.component';
+import { ContactComponent } from './component/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,14 +24,13 @@ import { SkillsComponent } from './component/skills/skills.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    // ExperienceComponent,
-    // ContactComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    // BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],

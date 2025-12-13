@@ -22,12 +22,12 @@ export class ProjectsComponent {
       githubLink: 'https://github.com',
       liveLink: 'https://demo.com'
     },
-    {
-      title: 'Banking REST API',
-      description: 'Secure RESTful API for banking operations with JWT authentication, transaction processing, and account management.',
-      technologies: ['Java', 'Spring Security', 'PostgreSQL', 'JWT'],
-      githubLink: 'https://github.com'
-    },
+    // {
+    //   title: 'Banking REST API',
+    //   description: 'Secure RESTful API for banking operations with JWT authentication, transaction processing, and account management.',
+    //   technologies: ['Java', 'Spring Security', 'PostgreSQL', 'JWT'],
+    //   githubLink: 'https://github.com'
+    // },
     {
       title: 'Social Media Dashboard',
       description: 'Analytics dashboard for social media metrics with interactive charts and real-time data visualization.',
