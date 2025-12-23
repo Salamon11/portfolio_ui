@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 interface Experience {
   position: string;
@@ -10,6 +13,8 @@ interface Experience {
 
 @Component({
   selector: 'app-experience',
+  standalone: true,
+  imports: [NavbarComponent, FooterComponent, CommonModule],
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css']
 })

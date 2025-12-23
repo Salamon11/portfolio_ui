@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 interface Skill {
   name: string;
@@ -8,6 +11,8 @@ interface Skill {
 
 @Component({
   selector: 'app-skills',
+  standalone: true,
+  imports: [CommonModule, NavbarComponent, FooterComponent],
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })

@@ -1,8 +1,13 @@
 import { Component } from '@angular/core';
-import { Project } from '../project-card/project-card.component';
+import { CommonModule } from '@angular/common';
+import { ProjectCardComponent, Project } from '../project-card/project-card.component';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-projects',
+  standalone: true,
+  imports: [CommonModule, ProjectCardComponent, NavbarComponent, FooterComponent],
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })

@@ -1,8 +1,13 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
+  standalone: true,
+  imports: [CommonModule, NavbarComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   animations: [
