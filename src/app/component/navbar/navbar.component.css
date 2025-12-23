@@ -87,3 +87,29 @@
     pointer-events: all;
   }
 }
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Outer glowing gradient circle */
+.profile-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 6px; /* gives a smooth border effect */
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation: float 3s ease-in-out infinite; */
+}
+
+/* Actual profile image */
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;   /* prevents image squeezing/stretching */
+}

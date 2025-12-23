@@ -11,6 +11,8 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class NavbarComponent {
   isMenuOpen = false;
+  profileImage: string = 'assets/public/Salamon.JPG';
+
 
   constructor(private router: Router) {}
 

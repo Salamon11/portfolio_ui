@@ -25,9 +25,10 @@ export class HomeComponent {
   
   downloadResume() {
     const link = document.createElement('a');
-    link.href = 'https://salamon.tiiny.site';
-    link.download = 'Salamon_Santhiyahapper_Resume.pdf';
+    link.href = 'assets/resume/SALAMON_SANTHIYAHAPPER.pdf';
+    link.download = 'SALAMON_SANTHIYAHAPPER.pdf';
     link.click();
   }
+  showResme=false;
 
 }

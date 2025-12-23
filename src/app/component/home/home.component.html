@@ -18,11 +18,13 @@
         development.
       </p>
 
-      <!-- Buttons -->
+    <!-- Buttons -->
       <div class="hero-buttons">
-        <button class="btn btn-primary" routerLink="/projects">View My Work</button>
-        <button class="btn btn-secondary" (click)="downloadResume()">Download Resume</button>
+        <button class="btn btn-primary" (click)="downloadResume(); showResme = true">
+          Download Resume
+        </button>
       </div>
+
     </div>
 
     <!-- Right Side Image -->
