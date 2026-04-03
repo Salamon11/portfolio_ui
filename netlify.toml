@@ -1,0 +1,6 @@
+[build]
+  command = "ng build --configuration production"
+  publish = "dist/portfolio"
+
+[build.environment]
+  NETLIFY_SKIP_ANGULAR_RUNTIME = "true"
