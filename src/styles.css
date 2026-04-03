@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --primary-gradient-light: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  --primary-color: #667eea;
+  --text-dark: #1a1a2e;
+  --text-gray: #666;
+  --shadow: 0 5px 20px rgba(0,0,0,0.1);
+  --border-radius: 15px;
+  --transition: all 0.3s ease;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +25,27 @@ body {
 
 main {
   min-height: calc(100vh - 80px);
+}
+
+/* Common component styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-gray);
+  margin-bottom: 4rem;
 }

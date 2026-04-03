@@ -29,7 +29,7 @@ export class SkillsComponent {
     { name: 'MySQL', level: 75, category: 'Database' },
     { name: 'Oracle', level: 70, category: 'Database' },
     { name: 'Git', level: 85, category: 'Tools' },
-    { name: 'Docker', level: 70, category: 'Tools' }
+    // { name: 'Docker', level: 70, category: 'Tools' }
   ];
   
   getSkillsByCategory(category: string): Skill[] {

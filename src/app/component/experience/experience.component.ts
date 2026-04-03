@@ -23,7 +23,7 @@ export class ExperienceComponent {
     {
       position: 'Junior Java Developer',
       company: 'TVM InfoTech Solutions Pvt Ltd',
-      duration: 'Jul 2024 - Present',
+      duration: 'Jul 2025 - Present',
       description: 'Developing and maintaining enterprise-level web applications using Spring Boot and Angular.',
       responsibilities: [
         'Designed and implemented RESTful APIs using Spring Boot with 99.9% uptime',
