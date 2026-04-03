@@ -2,6 +2,3 @@
   command = "ng build --configuration production"
   publish = "dist/portfolio"
 
-[[plugins]]
-  package = "@netlify/angular-runtime"
-  enabled = false
